@@ -1,0 +1,242 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Beautiful Blogger
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .post {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .post h2 {
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        .post p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .post .meta {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Y khoa
+   </h1>
+  </header>
+  <nav>
+   <ul>
+    <li>
+     <a href="#">
+      Home
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      About
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Blog
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Contact
+     </a>
+    </li>
+    <li>
+     <a href="#login">
+      Login
+     </a>
+    </li>
+    <li>
+     <a href="#register">
+      Register
+     </a>
+    </li>
+    <li>
+     <a href="#new-post">
+      New Post
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <div class="container">
+   <div class="post">
+    <img alt="A beautiful landscape with mountains and a lake" height="600" src="https://storage.googleapis.com/a1aa/image/UEU4ygU3LALqFFEt3frdl7zaqtBWPTwEkuz1r9YeEEzv1PtTA.jpg" width="1200"/>
+    <h2>
+     Post Title 1
+    </h2>
+    <p class="meta">
+     Posted on January 1, 2023 by Author
+    </p>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor. Proin vel libero a justo facilisis gravida. Integer nec odio nec nulla facilisis fermentum. Curabitur non libero at lorem tincidunt tincidunt.
+    </p>
+   </div>
+   <div class="post">
+    <img alt="A close-up of a beautiful flower in bloom" height="600" src="https://storage.googleapis.com/a1aa/image/MZO5DCa8fx1uIqJ3VJV7z8CSkL1uRz6giLz5ztTzkYM26n2JA.jpg" width="1200"/>
+    <h2>
+     Post Title 2
+    </h2>
+    <p class="meta">
+     Posted on February 1, 2023 by Author
+    </p>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor. Proin vel libero a justo facilisis gravida. Integer nec odio nec nulla facilisis fermentum. Curabitur non libero at lorem tincidunt tincidunt.
+    </p>
+   </div>
+   <div class="post">
+    <img alt="A bustling cityscape at night with bright lights" height="600" src="https://storage.googleapis.com/a1aa/image/MYGYtWTuA9KqFthUnjIj7jNX9nhZxdr5feKpMf2Dacobrf0OB.jpg" width="1200"/>
+    <h2>
+     Post Title 3
+    </h2>
+    <p class="meta">
+     Posted on March 1, 2023 by Author
+    </p>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan tortor. Proin vel libero a justo facilisis gravida. Integer nec odio nec nulla facilisis fermentum. Curabitur non libero at lorem tincidunt tincidunt.
+    </p>
+   </div>
+  </div>
+  <div class="form-container" id="login">
+   <h2>
+    Login
+   </h2>
+   <form>
+    <input placeholder="Email" required="" type="email"/>
+    <input placeholder="Password" required="" type="password"/>
+    <button type="submit">
+     Login
+    </button>
+   </form>
+  </div>
+  <div class="form-container" id="register">
+   <h2>
+    Register
+   </h2>
+   <form>
+    <input placeholder="Username" required="" type="text"/>
+    <input placeholder="Email" required="" type="email"/>
+    <input placeholder="Password" required="" type="password"/>
+    <button type="submit">
+     Register
+    </button>
+   </form>
+  </div>
+  <div class="form-container" id="new-post">
+   <h2>
+    New Post
+   </h2>
+   <form>
+    <input placeholder="Post Title" required="" type="text"/>
+    <textarea placeholder="Post Content" required="" rows="10"></textarea>
+    <button type="submit">
+     Submit Post
+    </button>
+   </form>
+  </div>
+  <footer>
+   <p>
+    © 2023 Beautiful Blogger. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>
